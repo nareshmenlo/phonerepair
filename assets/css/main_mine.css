@@ -1,0 +1,19 @@
+@import 'prettyPhoto.css';
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+.centered {
+  margin: auto auto;
+  display: block;
+  width: 185px;
+}
+
+.credits a:hover {
+  color: #999;
+  text-decoration: none;
+  background: #000;
+}
+.pp_gallery{
+	display:none !important;
+}

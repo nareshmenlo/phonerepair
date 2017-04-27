@@ -1,0 +1,126 @@
+/*login styles*/
+
+.top-buffer-20{
+    margin-top: 20px;
+}
+
+.top-buffer-60{
+    margin-top: 60px;
+}
+
+.loginbox{
+    padding: 25px;
+    border: 1px solid #818181;
+    border-radius: 10px;
+}
+
+.error{
+    font-size: 12px;
+    color: #f00;
+}
+
+
+fieldset.scheduler-border {
+    border: 1px groove #ddd !important;
+    padding: 0 1.4em 1.4em 1.4em !important;
+    margin: 0 0 1.5em 0 !important;
+    -webkit-box-shadow:  0px 0px 0px 0px #000;
+            box-shadow:  0px 0px 0px 0px #000;
+}
+
+    legend.scheduler-border {
+        font-size: 1.2em !important;
+        font-weight: bold !important;
+        text-align: left !important;
+        width:auto;
+        padding:0 10px;
+        border-bottom:none;
+    }
+
+.m-r-10{
+    margin-right: 10px;
+}
+
+.navbar-inverse .navbar-nav>li>a.active{
+    /*color: #333;
+    background: #fff;*/
+        color: #f00;
+        font-weight: bold;
+    border-bottom: 2px solid #f00;
+}
+
+.logout {
+    margin-top: 14px;
+    color:#fff;
+}
+
+.logout:hover {
+    color:#fff;
+    text-decoration: none;
+}
+
+div.bootstrap-select .dropdown-menu.open{
+    z-index: 9999;
+}
+
+
+.nav-paging i{
+    color: #FFF;
+    background-color: #000000;
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+}
+.nav-paging i:hover{
+    background-color: #000000;
+}
+.nav-paging a{
+    float: left;
+    height: 40px;
+    width: 40px;
+    -webkit-transition: all .25s ease;
+    -moz-transition: all .25s ease;
+    -ms-transition: all .25s ease;
+    -o-transition: all .25s ease;
+    transition: all .25s ease;
+}
+.nav-paging li:first-child a:hover,
+.nav-paging li:last-child a:hover{
+    font-size: 1em;
+}
+.nav-paging a:hover{
+    color: #000000;
+    font-size: 1.35em;
+}
+.nav-paging span{
+    color: #000000;
+    font-size: 1.35em;
+}
+.nav-paging{
+    padding: 20px 0;
+    width: 100%;
+    border-top: 1px solid #e3e2e2;
+    border-bottom: 1px solid #e3e2e2;
+    overflow: hidden;
+}
+.nav-paging ul{
+    margin: 0 auto;
+    float:right;
+}
+.nav-paging li{
+    text-align: center;
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    float: left;
+        list-style-type: none;
+}
+
+.nav-paging i
+{
+    -webkit-transition: all .25s ease-in;
+    -moz-transition: all .25s ease-in;
+    -ms-transition: all .25s ease-in;
+    -o-transition: all .25s ease-in;
+    transition: all .25s ease-in;
+}
